@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_vibration_white_24dp" android:id="@id/vibration" android:title="Vibrate" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_record_voice_over_white_24dp" android:id="@id/error_sms" android:title="Error" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_3d_rotation_white_24dp" android:id="@id/StreetView" android:title="Street View" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_directions_car_white_24dp" android:id="@id/Findroute" android:title="Find route" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_cached_white_24dp" android:id="@id/refresh" android:title="Refresh" app:showAsAction="always" />
+    <item android:icon="@drawable/left" android:id="@id/goback" android:title="back" app:showAsAction="always" />
+</menu>

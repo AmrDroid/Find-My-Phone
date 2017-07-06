@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/whitebackground" android:paddingTop="3.0pt" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/LLogin" android:background="@color/whitebackground" android:padding="10.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/backgroundwhite" android:padding="15.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                <TextView android:id="@id/textView3" android:background="@drawable/backgroundwhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/PhoneNumber" android:layout_weight="1.0" />
+                <EditText android:textSize="20.0dip" android:textColor="#ff1a102c" android:id="@id/EDTNumber" android:background="@android:drawable/editbox_background" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:hint="@string/PhoneNumberhint" android:ems="10" android:maxLength="15" android:layout_weight="1.0" android:inputType="phone" />
+                <Button android:textColor="#ff06071c" android:id="@id/buNext" android:background="@drawable/green_button" android:layout_width="fill_parent" android:layout_height="25.0pt" android:layout_margin="15.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Next" android:layout_weight="1.0" android:onClick="BuNext" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/progressBar1" android:background="@drawable/backgroundwhite" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/whitebackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.google.android.gms.ads.AdView android:id="@id/adView" android:background="@color/whitebackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="@string/banner_ad_unit_id" />
+    </LinearLayout>
+</RelativeLayout>

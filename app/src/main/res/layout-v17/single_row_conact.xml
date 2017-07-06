@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/whitebackground" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/backgroundwhite" android:paddingLeft="2.0dip" android:paddingTop="5.0dip" android:paddingRight="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip">
+        <ImageView android:id="@id/imageView" android:background="@color/white" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/gpson" android:scaleType="fitXY" android:layout_weight="0.0" />
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="18.0dip" android:textColor="@color/blue" android:id="@id/textView1" android:background="@color/white" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Find My phone" android:layout_toRightOf="@id/imageView" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/black" android:id="@id/textView2" android:background="@color/white" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Phone Number" android:layout_toRightOf="@id/imageView" android:layout_below="@id/textView1" android:layout_alignRight="@id/textView1" android:layout_alignBottom="@id/imageView" android:layout_alignEnd="@id/textView1" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
